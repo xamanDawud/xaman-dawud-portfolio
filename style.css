@@ -7,13 +7,18 @@ h1 {
   font-size: 4s0px;
 }
 
+.topSite {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+}
 .half-width img {
   width: 86%;
 }
 .half-width {
   width: 50%;
-  float: left;
-  margin-left: 0px;
+  margin-left: 104px;
 }
 .orange-color {
   color: orange;
@@ -33,13 +38,87 @@ h1 {
 }
 
 .half-width p {
-  width: 80%;
+  width: 78%;
   font-size: 16px;
   text-align: justify;
   color: #00000078;
-  margin-top: 51px;
+  margin-top: 21px;
+  margin-bottom: 35px;
 }
 
-section.topSite {
-  margin-left: 99px;
+.link-account-btn {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, orange, tomato);
+  border: none;
+  padding: 11px 39px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 3%;
+}
+
+#dream-img-div {
+  padding-left: 0px;
+}
+
+#dream-big-sec {
+  padding-top: 66px;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+}
+
+.experienceBox-wrapper {
+  display: flex;
+}
+
+.experience-box {
+  padding: 28px;
+  width: 37%;
+  margin-left: 72px;
+  box-shadow: 5px 7px 40px grey;
+}
+
+.experience-box h1 {
+  font-size: 35px;
+}
+
+.experience-box p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #00000080;
+}
+
+#experience-id {
+  margin-top: 70px;
+}
+
+#ex-box-on1 {
+  border-left: 5px solid;
+  border-image: linear-gradient(180deg, orange, tomato);
+  border-image-slice: 1;
+}
+
+#ex-box-two {
+  border-left: 5px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+h1.ex-header {
+  font-size: 40px;
+}
+
+section.footer-section {
+  text-align: center;
+  margin-top: 105px;
+  margin-bottom: 10px;
+  color: #000000a1;
 }
